@@ -18,7 +18,7 @@ public class RollbackTest {
     @Test
     void runtimeException() {
         Assertions.assertThatThrownBy(() -> service.runtimeException())
-                        .isInstanceOf(RuntimeException.class);
+                .isInstanceOf(RuntimeException.class);
     }
 
     @Test
